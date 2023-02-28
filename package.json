@@ -1,0 +1,26 @@
+{
+  "name": "udemy_playwight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests:chrome": "playwright test --config=playwright.config.ts --project=chromium",
+    "tests:firefox": "playwright test --config=playwright.config.ts --project=firefox",
+    "tests:webkit": "playwright test --config=playwright.config.ts --project=webkit",
+    "tests:e2e": "playwright test --config=e2e.config.ts --project=chromium",
+    "tests:visual": "playwright test --config=visual.config.ts",
+    "tests:visual:chrome": "playwright test --config=visual.config.ts --project=chromium",
+    "tests:visual:firefox": "playwright test --config=visual.config.ts --project=firefox",
+    "tests:visual:webkit": "playwright test --config=visual.config.ts --project=webkit",
+    "tests:visual:chrome:update": "playwright test --config=visual.config.ts --project=chromium --update-snapshots",
+    "tests:visual:firefox:update": "playwright test --config=visual.config.ts --project=firefox --update-snapshots",
+    "tests:visual:webkit:update": "playwright test --config=visual.config.ts --project=webkit --update-snapshots",
+    "tests:api": "playwright test --config=api.config.ts --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1"
+  }
+}
