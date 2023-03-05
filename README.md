@@ -19,20 +19,19 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 | [Typescript](https://www.typescriptlang.org/docs/) |       
 
 ## 🎯 Objetivo
-TODO 
+Projeto com objetivo de aprendizado da utilização do playwright para fins de testes de automatizados, bem como boas práticas de automação com o mesmo. 
 
 ## 🌌 Estrutura
 Para organização do projeto de automação, foram criados alguns repositórios para distribuir os arquivos de acordo com o objetivo de cada um.
   - ### **playwright-udemy-course**
       - ***Tests***     
-         - TODO   
+         - Diretório contendo os arquivos de teste sendo eles: testes visuais, testes end-to-end e testes de API.
  
-      - ***TODO***  
-         - TODO.             
+      - ***Page-object***  
+         - Diretório contendo definições de classes e funções que são utilizadas nos arquivos de teste.             
   
 ## ⏩ Execução
 - Clone o repositório
-- Baixe o Ruby - [Ruby](https://www.ruby-lang.org/pt/) - (2.7.1)
-- Baixe a *Gem bundler*: ```gem install bundler```
-- Executar o ```bundler install``` na raiz do projeto
-- Executar o comando ```Cucumber``` para rodar os testes
+- Baixe o NodeJS - [NodeJS](https://nodejs.org/en/) - (18.14.2)
+- Executar o ```npm install``` na raiz do projeto
+- Executar o comando ```npx playwright test``` para rodar os testes
